@@ -1,0 +1,132 @@
+Pin,PIC32MX795F512L,"Max32 Connector, Rev D","Max32 chipKit Silk, Rev D","Max32 Feature, Rev D",,"Max32 Connector, Rev E","Max32 chipKit Silk, Rev E","Max32 Feature, Rev E",,Motor Connector,Motor Silk,Motor Feature,,Pmod Connector,Pmod Silk,Pmod Feature,,"WiFly Arduino Connector, Rev 3","WiFly Arduino Silk, Rev 3","WiFly Feature, Rev C",,"WiFi Connector, Rev C","WiFi Silk, Rev C","WiFi Feature, Rev C"
+1,AERXERR/RG15,J9-10,28,,,J9-10,28,,,,,,,,,,,,,,,,,
+2,VDD,,,,,,,,,,,,,,,,,,,,,,,
+3,PMD5/RE5,J9-06,32,,,J9-06,32,,,,,,,,,,,,,,,,,
+4,PMD6/RE6,J9-07,31,,,J9-07,31,,,,,,,,,,,,,,,,,
+5,PMD7/RE7,J9-08,30,,,J9-08,30,,,,,,,,,,,,,,,,,
+6,T2CK/RC1,-,-,LD5,,-,-,LD5,,,,,,,,,,,,,,,,
+7,T3CK/RC2,J9-16,22,,,J9-16,22,,,,,,,,,,,,,,,,,
+8,T4CK/RC3,J9-15,23,,,J9-15,23,,,,,,,,,,,,,,,,,
+9,T5CK/SDI1/RC4,J3-07,11,,,J3-07,11,,,,,,,,,,,,,,,J1-07,11,-
+10,ECOL/SCK2/U6TX/U3RTS/PMA5/CN8/RG6,"J8-02, J13-03","52, -","SCK2, vertical pins",,"J8-02, J13-03","52, -","SCK2, vertical pins",,,,,,,,,,,,,,J5-03,-,SCK
+11,ECRS/SDA4/SDI2/U3RX/PMA4/CN9/RG7,"J9-09, J13-01/04","29, -/-","MOSI/MISO, JP3/4",,"J9-09, J13-01/04","29, -/-","MOSI/MISO, JP3/4",,,,,,,,,,,,,,J5-04,-,SDI
+12,ERXDV/AERXDV/ECRSDV/AECRSDV/SCL4/SDO2/U3TX/PMA3/CN10/RG8,"J8-11, J13-01/04","43, -/-","MOSI/MISO, JP3/4",,"J8-11, J13-01/04","43, -/-","MOSI/MISO, JP3/4",,,,,,,,,,,,,,J5-01,-,SDO
+13,MCLR,J10-01,RST,Reset,,J10-03,RST,Reset,,J22-01,RST,Reset,,,,,,,,,,J3-01,RST,Reset
+14,ERXCLK/AERXCLK/EREFCLK/AEREFCLK/SS2/U6RX/U3CTS/PMA2/CN11/RG9,"J8-01, J13-05","53, -","SS2, vertical pins",,"J8-01, J13-05","53, -","SS2, vertical pins",,,,,,,,,,,,,,J5-05,-,"CS, WiFi slave select"
+15,VSS,,,,,,,,,,,,,,,,,,,,,,,
+16,VDD,,,,,,,,,,,,,,,,,,,,,,,
+17,TMS/RA0,J14-02,70,,,J14-02,70,,,,,,,,,,,,,,,J2-02,26,-
+18,AERXD0/INT1/RE8,J14-05,2,,,J14-05,2,,,"J15-05, J8-01, J3-01",2,"SA1 Encoder / -, JP3",,,,,,,,,,J2-05,2,Interrupt
+19,AERXD1/INT2/RE9,J14-15,7,,,J14-15,7,,,J15-15,7,"SA2 Encoder / -, JP4",,,,,,,,,,J2-15,7,-
+20,AN5/C1IN+/VBUSON/CN7/RB5,J5-06,"59, A5",Analog5,,J5-06,"59, A5",Analog5,,,,,,,,,,,,,,J4-02,A5,Analog5
+21,AN4/C1IN-/CN6/RB4,J5-05,"58, A4",Analog4,,J5-05,"58, A4",Analog4,,,,,,,,,,,,,,J4-04,A4,Analog4
+22,AN3/C2IN+/CN5/RB3,J5-04,"57, A3",Analog3,,J5-04,"57, A3",Analog3,,,,,,,,,,,,,,J4-06,A3,Analog3
+23,AN2/C2IN-/CN4/RB2,J5-03,"56, A2",Analog2,,J5-03,"56, A2",Analog2,,,,,,,,,,,,,,J4-08,A2,Analog2
+24,PGEC1/AN1/CN3/RB1,J5-02,"55, A1",Analog1,,J5-02,"55, A1",Analog1,,,,,,,,,,,,,,J4-10,A1,Analog1
+25,PGED1/AN0/CN2/RB0,J5-01,"54, A0",Analog0,,J5-01,"54, A0",Analog0,,,,,,,,,,,,,,J4-12,A0,Analog0
+26,PGEC2/AN6/OCFA/RB6,J5-7,"60, A6",Analog6,,J5-7,"60, A6",Analog6,,,,,,,,,,,,,,Not connected,Not connected,Not connected
+27,PGED2/AN7/RB7,J5-8,"61, A7",Analog7,,J5-8,"61, A7",Analog7,,,,,,,,,,,,,,Not connected,Not connected,Not connected
+28,VREF-/CVREF-/AERXD2/PMA7/RA9,J3-16,85,,,J3-16,85,,,,,,,,,,,,,,,J1-16,41,-
+29,VREF+/CVREF+/AERXD3/PMA6/RA10,"J8-10, J3-15","44, AREF",,,"J8-10, J3-15","44, AREF",,,,,,,,,,,,,,,J1-15,A,-
+30,AVDD,,,,,,,,,,,,,,,,,,,,,,,
+31,AVSS,,,,,,,,,,,,,,,,,,,,,,,
+32,AN8/C1OUT/RB8,J7-01,"62, A8",Analog8,,J7-01,"62, A8",Analog8,,,,,,,,,,,,,,Not connected,Not connected,Not connected
+33,AN9/C2OUT/RB9,J7-02,"63, A9",Analog9,,J7-02,"63, A9",Analog9,,,,,,,,,,,,,,Not connected,Not connected,Not connected
+34,AN10/CVREFOUT/PMA13/RB10,J7-03,"64, A10",Analog10,,J7-03,"64, A10",Analog10,,,,,,,,,,,,,,Not connected,Not connected,Not connected
+35,AN11/ERXERR/AETXERR/PMA12/RB11,J7-04,"65, A11",Analog11,,J7-04,"65, A11",Analog11,,,,,,,,,,,,,,Not connected,Not connected,Not connected
+36,VSS,,,,,,,,,,,,,,,,,,,,,,,
+37,VDD,,,,,,,,,,,,,,,,,,,,,,,
+38,TCK/RA1,J14-04,71,,,J14-04,71,,,,,,,,,,,,,,,J2-04,27,-
+39,AC1TX/SCK4/U5TX/U2RTS/RF13,J4-08,14,,,J4-08,14,,,,,,,,,,,,,,,,,
+40,AC1RX/SS4/U5RX/U2CTS/RF12,J4-07,15,,,J4-07,15,,,,,,,,,,,,,,,,,
+41,AN12/ERXD0/AECRS/PMA11/RB12,J7-05,"67, A12",Analog12,,J7-05,"67, A12",Analog12,,,,,,,,,,,,,,Not connected,Not connected,Not connected
+42,AN13/ERXD1/AECOL/PMA10/RB13,J7-06,"66, A13",Analog13,,J7-06,"66, A13",Analog13,,,,,,,,,,,,,,Not connected,Not connected,Not connected
+43,AN14/ERXD2/AETXD3/PMALH/PMA1/RB14,J7-07,"68, A14",Analog14,,J7-07,"68, A14",Analog14,,,,,,,,,,,,,,Not connected,Not connected,Not connected
+44,AN15/ERXD3/AETXD2/OCFB/PMALL/PMA0/CN12/RB15,J7-08,"69, A15",Analog15,,J7-08,"69, A15",Analog15,,,,,,,,,,,,,,Not connected,Not connected,Not connected
+45,VSS,,,,,,,,,,,,,,,,,,,,,,,
+46,VDD,,,,,,,,,,,,,,,,,,,,,,,
+47,AETXD0/SS3/U4RX/U1CTS/CN20/RD14,J4-03,19,,,J4-03,19,,,,,,,,,,,,,,,,,
+48,AETXD1/SCK3/U4TX/U1RTS/CN21/RD15,J4-04,18,,,J4-04,18,,,,,,,,,,,,,,,,,
+49,SDA5/SDI4/U2RX/PMA9/CN17/RF4,J4-05,17,,,J4-05,17,,,,,,,,,,,,,,,,,
+50,SCL5/SDO4/U2TX/PMA8/CN18/RF5,J4-06,16,,,J4-06,16,,,,,,,,,,,,,,,,,
+51,USBID/RF3,J9-13,25,,,J9-13,25,,,,,,,,,,,,,,,,,
+52,SDA3/SDI3/U1RX/RF2,J14-01,0,,,J14-01,0,,,J15-01,-,-,,,,,,,,,,J2-01,0,-
+53,SCL3/SDO3/U1TX/RF8,J14-03,1,,,J14-03,1,,,J15-03,1,-,,,,,,,,,,J2-03,1,-
+54,VBUS,J9-14,24,,,J9-14,24,,,,,,,,,,,,,,,,,
+55,VUSB3V3,,,,,,,,,,,,,,,,,,,,,,,
+56,D-/RG3,J9-12,26,,,J9-12,26,,,,,,,,,,,,,,,,,
+57,D+/RG2,J9-11,27,,,J9-11,27,,,,,,,,,,,,,,,,,
+58,SCL2/RA2,J3-09,12,,,J3-09,12,,,,,,,,,,,,,,,J1-09,12,-
+59,SDA2/RA3,J3-11,13,LD4,,J3-11,13,LD4,,,,,,,,,,,,,,J1-11,13,-
+60,TDI/RA4,J14-06,72,,,J14-06,72,,,,,,,,,,,,,,,J2-06,28,-
+61,TDO/RA5,J14-08,73,,,J14-08,73,,,,,,,,,,,,,,,J2-08,29,-
+62,VDD,,,,,,,,,,,,,,,,,,,,,,,
+63,OSC1/CLKI/RC12,,,,,,,,,,,,,,,,,,,,,,,
+64,OSC2/CLKO/RC15,,,,,,,,,,,,,,,,,,,,,,,
+65,VSS,,,,,,,,,,,,,,,,,,,,,,,
+66,AETXCLK/SCL1/INT3/RA14,J4-01,21,,,"J4-01, J18-01","21, -",SCL1,,,,,,,,,,,,,,,,
+67,AETXEN/SDA1/INT4/RA15,J4-02,20,,,"J4-02, J18-02","20, -",SDA1,,,,,,,,,,,,,,,,
+68,RTCC/EMDIO/AEMDIO/IC1/RD8,J8-06,48,,,J8-06,48,,,,,,,,,,,,,,,,,
+69,SS1/IC2/RD9,J14-10,74,,,J14-10,74,,,,,,,,,,,,,,,J2-10,30,-
+70,SCK1/IC3/PMCS2/PMA15/RD10,J8-16,38,,,J8-16,38,,,,,,,,,,,,,,,,,
+71,EMDC/AEMDC/IC4/PMCS1/PMA14/RD1,J8-05,49,,,J8-05,49,,,,,,,,,,,,,,,,,
+72,SDO1/OC1/INT0/RD0,J14-07,3,,,J14-07,3,,,,,motor pwm,,,,,,,,,,J2-07,3,LED1
+73,SOSCI/CN1/RC13,J14-12,75,,,J14-12,75,,,,,,,,,,,,,,,J2-12,31,-
+74,SOSCO/T1CK/CN0/RC14,J14-09,4,,,J14-09,4,,,,,motor 1 dir,,,,,,,,,,J2-09,4,SD Card Slave Select
+75,VSS,,,,,,,,,,,,,,,,,,,,,,,
+76,OC2/RD1,J14-11,5,,,J14-11,5,,,,,motor pwm,,,,,,,,,,J2-11,5,LED2
+77,OC3/RD2,J14-13,6,,,J14-13,6,,,,,,,,,,,,,,,J2-13,6,LED3
+78,OC4/RD3,J3-03,9,,,J3-03,9,,,,,,,,,,,,,,,J1-03,9,LED4
+79,ETXD2/IC5/PMD12/RD12,J3-01,8,,,J3-01,8,,,,,,,,,,,,,,,J1-01,8,-
+80,ETXD3/PMD13/CN19/RD13,J14-14,76,,,J14-14,76,,,,,,,,,,,,,,,J2-14,32,-
+81,OC5/PMWR/CN13/RD4,J3-05,10,,,J3-05,10,,,,,,,,,,,,,,,J1-05,10,-
+82,PMRD/CN14/RD5,J8-15,39,,,J8-15,39,,,,,,,,,,,,,,,,,
+83,ETXEN/PMD14/CN15/RD6,J8-07,47,,,J8-07,47,,,,,,,,,,,,,,,,,
+84,ETXCLK/PMD15/CN16/RD7,J14-16,77,,,J14-16,77,,,,,,,,,,,,,,,J2-16,33,-
+85,VCAP/VDDCORE,,,,,,,,,,,,,,,,,,,,,,,
+86,VDD,,,,,,,,,,,,,,,,,,,,,,,
+87,C1RX/ETXD1/PMD11/RF0,J8-09,45,,,J8-09,45,,,,,,,,,,,,,,,,,
+88,C1TX/ETXD0/PMD10/RF1,J8-08,46,,,J8-08,46,,,,,,,,,,,,,,,,,
+89,C2TX/ETXERR/PMD9/RG1,J3-02,78,,,J3-02,78,,,,,motor 2 dir,,,,,,,,,,J1-02,34,Hibernate Jumper (JP1)
+90,C2RX/PMD8/RG0,J3-04,79,,,J3-04,79,,,"J11-05, J8-01, J3-01",35,"SA1 Encoder / -, JP3",,,,,,,,,,J1-04,35,WP Jumper (JP2)
+91,TRCLK/RA6,J3-06,80,,,J3-06,80,,,,,,,,,,,,,,,J1-06,36,WiFi Reset Jumper (JP3)
+92,TRD3/RA7,J3-08,81,,,J3-08,81,,,J11-08,37,SB2 Encoder,,,,,,,,,,J1-08,37,-
+93,PMD0/RE0,J9-01,37,,,J9-01,37,,,,,,,,,,,,,,,,,
+94,PMD1/RE1,J9-02,36,,,J9-02,36,,,,,,,,,,,,,,,,,
+95,TRD2/RG14,J3-10,82,,,J3-10,82,,,,,,,,,,,,,,,J1-10,38,-
+96,TRD1/RG12,J3-12,83,,,J3-12,83,,,,,,,,,,,,,,,J1-12,39,-
+97,TRD0/RG13,J3-14,84,,,J3-14,84,,,,,,,,,,,,,,,J1-14,40,-
+98,PMD2/RE2,J9-03,35,,,J9-03,35,,,,,,,,,,,,,,,,,
+99,PMD3/RE3,J9-04,34,,,J9-04,34,,,,,,,,,,,,,,,,,
+100,PMD4/RE4,J9-05,33,,,J9-05,33,,,,,,,,,,,,,,,,,
+,,J3-13,GND,GND,,J3-13,GND,GND,,,,,,,,,,,,,,J1-13,G,GND
+,,J10-02,3V3,3.3 V,,J10-04,3V3,3.3 V,,J22-02,3V3,3.3 V,,,,,,,,,,J3-02,3V3,3.3 V
+,,J10-03,5V0,5.0 V,,J10-05,5V0,5.0 V,,J22-03,5V0,5.0 V,,,,,,,,,,J3-03,5V0,-
+,,J10-04,GND,GND,,J10-06,GND,GND,,J22-04,GND,GND,,,,,,,,,,J3-04,GND,GND
+,,J10-05,GND,GND,,J10-07,GND,GND,,J22-05,GND,GND,,,,,,,,,,J3-05,GND,GND
+,,J10-06,VIN,Voltage Input,,J10-08,VIN,Voltage Input,,J22-06,VIN,Voltage Input,,,,,,,,,,J3-06,VIN,-
+,,-,-,-,,J10-01,-,-,,-,-,-,,-,-,-,,,,,,-,-,-
+,,-,-,-,,J10-02,-,IOREF 3.3 V,,-,-,-,,-,-,-,,,,,,-,-,-
+,,Not connected,Not connected,Not connected,,Not connected,Not connected,Not connected,,,,,,,,,,,,,,J4-01,A11,
+,,Not connected,Not connected,Not connected,,Not connected,Not connected,Not connected,,,,,,,,,,,,,,J4-03,A10,
+,,Not connected,Not connected,Not connected,,Not connected,Not connected,Not connected,,,,,,,,,,,,,,J4-05,A9,
+,,Not connected,Not connected,Not connected,,Not connected,Not connected,Not connected,,,,,,,,,,,,,,J4-07,A8,
+,,Not connected,Not connected,Not connected,,Not connected,Not connected,Not connected,,,,,,,,,,,,,,J4-09,A7,
+,,Not connected,Not connected,Not connected,,Not connected,Not connected,Not connected,,"J19-02, J8-02, J3-01",A6,SB1 Encoder,,,,,,,,,,J4-11,A6,
+,,J13-06,-,"GND, vertical pins",,J13-06,-,"GND, vertical pins",,,,,,,,,,,,,,J5-06,-,GND
+,,J13-02,-,-,,J13-02,-,-,,,,,,,,,,,,,,J5-02,-,-
+,,,,,,,,,,J8-1,SA,SA1 Encoder,,,,,,,,,,,,
+,,,,,,,,,,J8-2,SB,SB1 Encoder,,,,,,,,,,,,
+,,,,,,,,,,J8-3,GND,GND,,,,,,,,,,,,
+,"If comma, same pin has multiple connections",",",,,,,,,,J8-4,VCC,3.3 V,,,,,,,,,,,,
+,"If forward slash, it has multiple connections based on jumpers",/,,,,,,,,J9-1,SA,SA2 Encoder,,,,,,,,,,,,
+,"If dash, it is nothing",-,,,,,,,,J9-2,SB,SB2 Encoder,,,,,,,,,,,,
+,"If yellow, different from Rev D",,,,"Notes, Problems",,,,,J9-3,GND,GND,,,,,,,,,,,,
+,"If blue, pin does not connect vertically to Max32",,,,,,,,,J9-4,VCC,3.3V,,,,,,,,,,,,
+,"If blank, it hasn't been checked or is not connected",,,,Motor,,,,,,,,,,,,,,,,,,,
+,,,,,SB1 Encoder is not connected,,,,,,,,,,,,,,,,,,,
+,,,,,SB2 is not connected to an interrupt pin,,,,,,,,,,,,,,,,,,,
+,,,,,SA1 has to go to INT1 to get it on an interrupt pin,,,,,,,,,,,,,,,,,,,
+,,,,,SA2 has to go to INT2 to get it on an interrupt pin,,,,,,,,,,,,,,,,,,,
+,,,,,"So, you can only use one pin of each encoder through the vertical stack",,,,,,,,,,,,,,,,,,,
+,,,,,You can manually connect the encoder signals using J8 and J9,,,,,,,,,,,,,,,,,,,
