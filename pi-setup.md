@@ -30,4 +30,4 @@ Installed packages:
 * golang
 * silversearcher-ag
 
-See <networking.md> for info about how to set up the wireless dongle.
+See [networking.md](networking.md) for info about how to set up the wireless dongle.
