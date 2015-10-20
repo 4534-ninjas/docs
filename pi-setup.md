@@ -26,7 +26,7 @@ Installed packages:
 
 * vim
 * zsh
-* git
+* git *(was actually already installed)*
 * golang
 * silversearcher-ag
 
