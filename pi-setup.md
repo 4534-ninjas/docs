@@ -31,6 +31,7 @@ Installed packages:
 * silversearcher-ag
 * iw
 * hostapd
+* dnsmasq
 
 
 See [networking.md](networking.md) for info about how to set up the
