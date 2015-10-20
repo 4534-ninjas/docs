@@ -29,6 +29,9 @@ Installed packages:
 * git *(was actually already installed)*
 * golang
 * silversearcher-ag
+* iw
+* hostapd
+
 
 See [networking.md](networking.md) for info about how to set up the
 wireless dongle.
