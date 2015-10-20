@@ -32,6 +32,7 @@ Installed packages:
 * iw
 * hostapd
 * dnsmasq
+* tmux
 
 
 See [networking.md](networking.md) for info about how to set up the
