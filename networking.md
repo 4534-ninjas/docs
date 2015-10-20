@@ -39,7 +39,7 @@ interface connected to the Pi.
    ```
    $ cat /var/lib/misc/dnsmasq.leases
    1445310314 b8:27:eb:78:95:4a 10.42.0.14 raspberrypi 01:b8:27:eb:78:95:4a
-                                ^^^^^^^^^^
+                                 ^^^^^^^^^^
    ```
 
 Note also that Ubuntu has some DNS magic that will resolve
